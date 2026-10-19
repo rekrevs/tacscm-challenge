@@ -34,7 +34,7 @@ fresh clone to a submitted agent:
 
 ```sh
 # 1. The kit at the edition's tag
-git clone --branch v1.0 https://github.com/rekrevs/tacscm-challenge.git
+git clone --branch v1.1 https://github.com/rekrevs/tacscm-challenge.git
 cd tacscm-challenge
 
 # 2. The game server
@@ -44,7 +44,8 @@ cd tacscm-challenge
 python3.12 -m venv .venv && . .venv/bin/activate
 pip install -r agents/requirements.txt ./sdk -e ./agents
 
-# 4. The DeepMaize v4 database (210 MB, a release asset; agents/MODELS.md)
+# 4. The DeepMaize v4 database (210 MB, a release asset of v1.0, unchanged in
+#    v1.1; agents/MODELS.md)
 curl -fL -o agents/models/deepmaize-v4-m2/pc-database.npz \
   https://github.com/rekrevs/tacscm-challenge/releases/download/v1.0/pc-database.npz
 python -m tac_scm_gallery.house --check-models
@@ -96,7 +97,9 @@ paired sets).
 
 ## Status
 
-Edition 1, kit tag **`v1.0`**, frozen: the server, the rules, the house
+Edition 1, kit tag **`v1.1`** (`v1.0` amended on 2026-10-19: the `league`
+and `weak` house-field lists of `tournament/FORMAT.md` section 1; nothing
+else changed), frozen: the server, the rules, the house
 agents and their models, the seat limits and `tournament/FORMAT.md` stay as
 tagged for this edition; a fix found during the edition goes into the next
 one. Game profile `tac-scm-2026-draft3` (profile revision 1), engine

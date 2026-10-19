@@ -80,8 +80,14 @@ neither executed nor decompiled.
   unlike it is off-distribution for them.
 - v1 was developed under draft2 and an earlier engine and plays draft3
   unchanged; its planner did not dominate its planner-free ablation. Its
-  supplier price limits come from its learned price model (about half the
-  base price); in fields with the v4 agents no supplier offer met them and it
-  never traded.
+  learned supplier-price model (about half the base price, fixed within a
+  game) caps its RFQ reservation prices at about 0.53 x base; under the 2026
+  supplier pricing that is offered only while a line is nearly uncommitted,
+  and the agent orders only when offers for all four components of a
+  product meet the cap on one day. It therefore never traded in any
+  measured field with the v4 agents and trades in a field of v1 agents only
+  while the lines stay uncommitted. Removed from the tournament lists on
+  2026-10-19 (`tournament/FORMAT.md`, amendment); kept in the kit unchanged
+  for local games.
 - Fidelity against the papers has been checked through held-out prediction
   errors, not reviewed component by component.

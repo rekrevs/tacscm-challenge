@@ -71,5 +71,10 @@ within a game; nothing is carried between games.
 - v4 keeps a component buffer of about 15,000 to 18,000 units through the
   second half and does not run it down: it ends every game with that stock
   unused (several million credits at base prices).
+- In the organiser's league-field games of 2026-10-19 (practice roots), on
+  one root in 5 of 14 games v4 traded on only 11-15 % of days and ended near
+  -5 M, while in the other 9 games on the same root it traded on 93-95 % of
+  days; the cause is being investigated. An entrant who sees this in a local
+  game has not found a fault of their own.
 - v1 was developed under draft2 on an earlier engine and plays draft3
   unchanged; its limits are small for the 2026 factory.

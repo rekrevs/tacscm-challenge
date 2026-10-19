@@ -2,7 +2,7 @@
 
 How the games of an edition are composed, seeded, seated and scored. This
 document is frozen with the kit when the invitation is sent; a change is a
-change for the next edition. How to submit and the limits a seat plays
+change for the next edition (amended once in this edition, section 1). How to submit and the limits a seat plays
 under are in `SUBMISSION.md`.
 
 Every game is the game of `rules/` under profile `tac-scm-2026-draft3`, six
@@ -27,13 +27,38 @@ seats, 220 days, with the seat limits, daily deadline and startup grace of
 | Filler (primary table) | `tactex-inspired-v4-m5`, `deepmaize-inspired-v4-m2`, `botticelli-inspired-v4-1`, `tactex-inspired-v4-m4`, `tactex-inspired-v4-m3` |
 | `strong-homogeneous` | `tactex-inspired-v4-m5` x 5 |
 | `strong-mixed` | `tactex-inspired-v4-m5`, `deepmaize-inspired-v4-m2`, `botticelli-inspired-v4-1`, `tactex-inspired-v4-m5`, `deepmaize-inspired-v4-m2` |
-| `league` | `tactex-inspired-v4-m4`, `tactex-inspired-v4-m3`, `deepmaize-inspired-v4-m2`, `botticelli-inspired-v4-1`, `tactex-inspired-v1` |
-| `weak` | `tactex-inspired-v1`, `deepmaize-inspired-v1`, `iota-inspired-v1`, `socrates-inspired-v1`, `narc-inspired-v1` |
+| `league` | `tactex-inspired-v4-m4`, `tactex-inspired-v4-m3`, `deepmaize-inspired-v4-m2`, `botticelli-inspired-v4-1`, `botticelli-inspired-v4` |
+| `weak` | `crocodile-inspired-v1`, `deepmaize-inspired-v1`, `iota-inspired-v1`, `socrates-inspired-v1`, `narc-inspired-v1` |
 
-Every Botticelli seat is `botticelli-inspired-v4-1`, the kit's current
-Botticelli; the earlier `botticelli-inspired-v4` stays in the kit, frozen,
-and fills no tournament seat. The `league` list holds the older TacTex
-models and one v1 agent.
+Every Botticelli seat outside the `league` list is
+`botticelli-inspired-v4-1`, the kit's current Botticelli. The `league` list
+holds the older TacTex models and the older Botticelli,
+`botticelli-inspired-v4`, kept frozen with its known supplier-selection
+limitation (`agents/botticelli-inspired/INSPIRATION.md`).
+
+### Amendment 2026-10-19 (kit tag `v1.1`)
+
+`tactex-inspired-v1` left the `league` and `weak` lists. Its frozen
+supplier-price model limits its supplier RFQs to about half the base price,
+which the 2026 suppliers offer only while a line is nearly uncommitted; in
+the `league` field it never traded (no order in any measured game) and in
+the `weak` field it traded only beside an entrant that leaves the supplier
+lines uncommitted. A seat that never trades is not a house field. The
+`league` seat goes to `botticelli-inspired-v4`, the only kit agent outside
+the list that trades in that field (in the organiser's measurement, two
+games per candidate on practice roots, every v1 agent won at most 17 orders
+there); the `weak` seat goes to `crocodile-inspired-v1`, the most active v1
+agent beside a strong or a weak entrant. The first four agents of the
+`league` list, which the two-entrant challenge uses, are unchanged; in
+`weak` the replacement takes the same position. The agent stays in the kit
+for local games.
+
+This amends a frozen edition: the owner decided that an inert seat is a
+defect to fix in this informal edition rather than carry to the next.
+Nothing else changes between `v1.0` and `v1.1`: the server, rules, house
+agents, models and seat limits are as tagged in `v1.0`, so games played and
+models trained against `v1.0` stand; a `v1.0` clone needs only
+`git fetch && git checkout v1.1`.
 
 ## 2. Roots
 

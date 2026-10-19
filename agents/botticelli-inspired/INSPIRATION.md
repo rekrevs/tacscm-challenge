@@ -68,7 +68,8 @@ file and carry nothing between games, so they were not trained on any field.
   component, each is redundant given the others and all are refused; in the
   kit's test games v4 held no CPUs on 25 to 50% of days 20-200 and stopped
   production for up to 60 days. Fixed in `botticelli-inspired-v4-1` (above);
-  v4 is kept frozen as it was. In the organiser's paired games (draft3, 16
+  v4 is kept frozen as it was (it fills the fifth `league` seat since the
+  2026-10-19 amendment of `tournament/FORMAT.md`). In the organiser's paired games (draft3, 16
   roots, two seats each, v4-1 and v4 in the same seat against the same
   opponents) v4-1 scored +7.0 M (SE 1.1) more in a field of five v4 copies
   (10.3 to 17.3 M) and +3.9 M (SE 0.6) more beside TacTex v4 m5 x2,

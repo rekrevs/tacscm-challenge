@@ -30,7 +30,7 @@ agents/requirements.txt ./sdk -e ./agents`); `python -m tac_scm_gallery.house
 | `botticelli-inspired-v1` | Botticelli | publication-inspired | none |
 | `narc-inspired-v1` | NaRC | publication-inspired | none |
 | `southampton-inspired-v1` | SouthamptonSCM | publication-inspired | none |
-| `tactex-inspired-v1` | TacTex | publication-inspired, trained | v1 (in package) |
+| `tactex-inspired-v1` | TacTex | publication-inspired, trained; never trades beside the v4 agents (INSPIRATION.md); in no tournament list since 2026-10-19 | v1 (in package) |
 | `socrates-inspired-v1` | Socrates | publication-inspired, trained | v1 (in package) |
 | `mertacor-inspired-v1` | Mertacor | publication-inspired, trained | v1 (in package) |
 | `iota-inspired-v1` | Iota | publication-inspired, train-calibrated | v1 (in package) |
@@ -39,7 +39,7 @@ agents/requirements.txt ./sdk -e ./agents`); `python -m tac_scm_gallery.house
 | `tactex-inspired-v4-m3` | TacTex | publication-inspired, trained (as m5, earlier models) | models-3 (draft2 games) |
 | `deepmaize-inspired-v4-m2` | DeepMaize | publication-inspired, trained | models-2 (release asset) |
 | `botticelli-inspired-v4-1` | Botticelli | publication-inspired (as v4, supplier offers chosen as a jointly optimal set) | fitted in game |
-| `botticelli-inspired-v4` | Botticelli | publication-inspired (acceptance model fitted in game; frozen, see INSPIRATION.md) | fitted in game |
+| `botticelli-inspired-v4` | Botticelli | publication-inspired (acceptance model fitted in game; frozen, see INSPIRATION.md; the fifth `league` seat since 2026-10-19) | fitted in game |
 
 The v1 agents are the gallery's first published versions: a kernel per
 family on a common 2026 completion layer (`agent`, `history`, `safety`,

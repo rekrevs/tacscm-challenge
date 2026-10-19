@@ -29,7 +29,7 @@ start with a message naming the file; it never plays untrained.
 ## Downloading the DeepMaize database
 
 `pc-database.npz` is larger than a repository file should be and is published
-as a release asset of the kit's tag `v1.0`:
+as a release asset of the kit's tag `v1.0` (unchanged in `v1.1`):
 
 <https://github.com/rekrevs/tacscm-challenge/releases/download/v1.0/pc-database.npz>
 
